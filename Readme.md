@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Брусов](https://up.htmlacademy.ru/htmlcss/27/user/1072293).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
