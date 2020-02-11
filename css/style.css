@@ -12,7 +12,6 @@ body {
 
 a {
   text-decoration: none;
-  text-align: center;
 }
 
 .visually-hidden {
@@ -191,6 +190,65 @@ a.current-site-navigation:active {
   color: rgba(255, 255, 255, 0.3);
 
   background-color: #5496bd;
+}
+
+.hotel-list .list-item {
+  text-align: left;
+  line-height: 21px;
+}
+
+.hotel-title {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.hotel-title:hover {
+  color: #81b3d2;
+}
+
+.hotel-title:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hotel-more {
+  font-weight: bold;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.hotel-more:hover {
+  background-color: #669ec0;
+}
+
+.hotel-more:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.hotel-book {
+  font-weight: bold;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+.hotel-book:hover {
+  background-color: #604e43;
+}
+
+.hotel-book:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #503e33;
+}
+
+.hotel-rating {
+  color: #666666;
+
+  background-color: #f2f2f2;
 }
 
 .main-footer {
