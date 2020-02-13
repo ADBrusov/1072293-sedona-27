@@ -150,7 +150,6 @@ a.current-site-navigation:active {
 
 .form-group input {
   background-color: #f2f2f2;
-  outline: 0;
   border: none;
 }
 
@@ -176,6 +175,7 @@ a.current-site-navigation:active {
   font-size: 21px;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
   color: #ffffff;
 
   background-color: #81b3d2;
@@ -190,6 +190,107 @@ a.current-site-navigation:active {
   color: rgba(255, 255, 255, 0.3);
 
   background-color: #5496bd;
+}
+
+.hotel-filter {
+  background-color: #677c8b;
+  background-image: url("../img/background-filter.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 1200px 562px;
+}
+
+.filter-form ul {
+  list-style: none;
+}
+
+.filter-form {
+  text-align: left;
+  color: #ffffff;
+  line-height: 21px;
+}
+
+.filter-form legend {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.filter-form input[type=text] {
+  font: inherit;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
+
+  background: none;
+  border: solid 2px #ffffff;
+  outline: 0;
+}
+
+.filter-form button {
+  font: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background: none;
+  border: solid 2px #ffffff;
+}
+
+.filter-form button:hover {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.hotel-sort {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+
+.hotel-numbers {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.hotel-sort ul {
+  list-style: none;
+}
+
+.main-sort a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-sort a:hover {
+  color: #81b3d2;
+}
+
+.main-sort a:active {
+  color: #000000;
+}
+
+.main-sort a.current {
+  color: #81b3d2;
+}
+
+.extra-sort a {
+  color: #cacaca;
+}
+
+.extra-sort a:hover {
+  color: #000000;
+}
+
+.extra-sort a:active {
+  color: #81b3d2;
+}
+
+.extra-sort a.current {
+  color: #81b3d2;
 }
 
 .hotel-list .list-item {
