@@ -401,39 +401,42 @@ a.current-site-navigation:active {
 html,
 body {
   min-width: 1280px;
+  background-color: #f2f2f2;
 }
 
-body.main-page {
+.main-page .main-wrapper {
   background-image: url("../img/background.jpg");
-  background-position: 0px 0px;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 1200px 800px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
-body.add-page {
+.add-page .main-wrapper {
   background-image: url("../img/background-filter.jpg");
-  background-position: 0px 0px;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 1200px 562px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
 .main-header {
-  width: 1200px;
   margin-bottom: 78px;
+  position: relative;
 
    /* Временно для сетки */
   min-height: 56px;
 }
 
-.main-navigation {
-
-    /* Временно для сетки */
-  min-height: 56px;
-}
-
 .site-navigation {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: flex;
 
     /* Временно для сетки */
@@ -443,8 +446,6 @@ body.add-page {
 .navigation-item {
   width: 239px;
   text-align: center;
-
-  /* Временно для сетки */
 }
 
 .navigation-item:nth-child(2) {
@@ -458,16 +459,10 @@ body.add-page {
   margin: 0 auto;
 }
 
-main.container {
-  width: 1200px;
-
-  /* Временно для сетки */
-}
-
 .intro {
-  margin: 0px;
-  padding: 0px;
-  width: 1200px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 79px;
   display: flex;
 }
 
@@ -475,7 +470,7 @@ img.intro-welcome {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 80px;
+  margin-bottom: 0;
 }
 
 .advantages {
@@ -486,51 +481,62 @@ img.intro-welcome {
 .advantages-intro {
   box-sizing: border-box;
   margin: 0;
-  padding: auto;
   padding-top: 61px;
   padding-bottom: 56px;
 }
 
+.advantages-intro h2 {
+  margin-top: 0;
+  margin-bottom: 38px;
+}
+
+.advantages-intro p {
+  margin-bottom: 0;
+}
+
+.advantages-list {
+  margin-top: 0;
+}
+
+.advantages-title {
+  margin-top: 0;
+}
+
 .main-footer {
   box-sizing: border-box;
-  margin: 0px;
+  margin: 0;
   padding: 36px;
-  width: 1200px;
-
-  /* Временно для сетки */
-  min-height: 120px;
-
+  padding-left: 132px;
+  padding-right: 101px;
 }
 
 .main-footer .container {
   display: flex;
-
-  /* Временно для сетки */
-
 }
 
 .footer-contacts {
   margin: 0;
-  width: 225px;
-  margin-right: 178px;
+  padding: 0;
+  width: 223px;
+  margin-right: 169px;
 
   /* Временно для сетки */
-
   min-height: 49px;
 }
 
 .footer-social {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   width: 150px;
 
   /* Временно для сетки */
-
   min-height: 49px;
 }
 
 .footer-copyright {
   margin: 0;
-  width: 198px;
+  padding: 0;
+  width: 197px;
   margin-left: auto;
 
   /* Временно для сетки */
@@ -539,34 +545,44 @@ img.intro-welcome {
 
 
 .hotel-list {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .hotel-list ul {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
 }
 
 .hotel-list .list-item {
   min-height: 152px;
-  padding: 32px;
+  padding: 30px;
+  padding-left: 72px;
+  padding-right: 72px;
   display: flex;
 }
 
 .hotel-info {
   width: 424px;
-  min-height: 92px;
-  margin-left: 72px;
+  margin: 0;
   margin-right: auto;
+
+  /* Временно для сетки */
+  min-height: 92px;
+}
+
+.hotel-title {
+  margin-top: 0;
 }
 
 .hotel-rating {
+  margin: 0;
   width: 110px;
+
+  /* Временно для сетки */
   min-height: 92px;
-  margin-right: 72px;
 }
 
 
