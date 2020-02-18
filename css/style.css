@@ -97,7 +97,7 @@ a.current-site-navigation:active {
   line-height: 24px;
 }
 
-.search-intro {
+.search-intro .intro-title {
   font-size: 30px;
   font-weight: bold;
   line-height: 36px;
@@ -500,6 +500,31 @@ img.intro-welcome {
 
 .advantages-title {
   margin-top: 0;
+}
+
+.search {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  padding-top: 57px;
+}
+
+.search-intro {
+  width: 434px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 52px;
+}
+
+.search-intro .intro-title {
+  margin-top: 0;
+}
+
+.search-form {
+  width: 568px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-footer {
