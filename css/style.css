@@ -424,7 +424,7 @@ img.intro-welcome {
   line-height: 36px;
 }
 
-.search-intro .intro-title + p {
+.intro-title + p {
   margin-top: 0;
 }
 
@@ -1029,19 +1029,19 @@ input.modal-error {
   padding: 0;
 }
 
-.extra-sort a path {
+.extra-sort-option path {
   fill: #cacaca;
 }
 
-.extra-sort a:hover path {
+.extra-sort-option:hover path {
   fill: #000000;
 }
 
-.extra-sort a:active path {
+.extra-sort-option:active path {
   fill: #81b3d2;
 }
 
-.extra-sort a.current path {
+.extra-sort-option.current path {
   fill: #81b3d2;
 }
 
@@ -1295,6 +1295,8 @@ p.hotel-rating {
 .contacts-hashtag {
   display: inline-block;
   margin-bottom: 4px;
+
+  vertical-align: top;
 }
 
 .footer-social {
@@ -1363,14 +1365,14 @@ p.hotel-rating {
   margin-left: 8px;
 }
 
-.footer-copyright path {
+.copyright-button path {
   fill: #231f20;
 }
 
-.footer-copyright a:hover path {
+.copyright-button:hover path {
   fill: #81b3d2;
 }
 
-.footer-copyright a:active path {
+.copyright-button:active path {
   fill: #bdbbbc;
 }
