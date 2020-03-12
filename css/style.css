@@ -132,6 +132,13 @@ a.current-site-navigation {
   margin-right: 244px;
 }
 
+.logo-link {
+  display: block;
+  width: 140px;
+  height: 71px;
+  margin: 0 auto -71px auto;
+}
+
 .main-header-logo {
   position: absolute;
   top: 0;
@@ -194,16 +201,24 @@ img.intro-welcome {
   margin: 0;
   padding-top: 60px;
   padding-bottom: 52px;
-  padding-left: 5px;
+
+  text-align: center;
 }
 
 .advantages-intro h2 {
+  width: 500px;
   margin-top: 0;
+  margin-right: auto;
   margin-bottom: 26px;
+  margin-left: auto;
 }
 
 .advantages-intro p {
+  width: 500px;
+  margin-top: 0;
+  margin-right: auto;
   margin-bottom: 0;
+  margin-left: auto;
 }
 
 .advantages-wrap {
@@ -233,7 +248,7 @@ img.intro-welcome {
 .advantages-item:nth-child(3n+2) {
   box-sizing: border-box;
   width: 400px;
-  padding-top: 48px;
+  padding-top: 46px;
   padding-bottom: 42px;
 }
 
@@ -246,21 +261,6 @@ img.intro-welcome {
   color: #ffffff;
 
   background-color: #81b3d2;
-}
-
-.advantages-item:nth-child(3) {
-  padding-right: 97px;
-  padding-left: 95px;
-}
-
-.advantages-item:nth-child(4) {
-  padding-right: 69px;
-  padding-left: 69px;
-}
-
-.advantages-item:nth-child(5) {
-  padding-right: 76px;
-  padding-left: 76px;
 }
 
 .advantage-wrap {
@@ -294,7 +294,22 @@ img.intro-welcome {
 }
 
 .advantages-title {
+  width: 151px;
   margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.advantages-description {
+  width: 305px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.advantages-item:nth-child(3) .advantages-description,
+.advantages-item:nth-child(4) .advantages-description,
+.advantages-item:nth-child(5) .advantages-description {
+  width: 261px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -553,14 +568,11 @@ input.modal-error {
 
 .form-group input:focus {
   background-color: #ffffff;
-  border: solid 2px #e5e5e5;
-  outline: none;
+  outline: solid 2px #e5e5e5;
 }
 
 .form-group input::placeholder {
   color: #000000;
-
-  opacity: 0.2;
 }
 
 .button-calendar {
@@ -629,7 +641,7 @@ input.modal-error {
 .search-form .submit-btn {
   width: 458px;
   height: 58px;
-  margin-top: 25px;
+  margin-top: 23px;
   padding: 0;
 
   font: inherit;
@@ -697,7 +709,7 @@ input.modal-error {
 .filter-form {
   display: flex;
   flex-wrap: wrap;
-  padding: 27px 71px 30px 71px;
+  padding: 29px 71px 30px 71px;
 
   line-height: 21px;
   text-align: left;
@@ -740,7 +752,7 @@ input.modal-error {
 
 .infrastructure-list li,
 .type-list li {
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 
 .infrastructure-list li:last-child,
@@ -772,7 +784,7 @@ input.modal-error {
   outline: 2px solid skyblue;
 }
 
-.filter-input-checkbox:checked + label::after {
+.filter-input-checkbox:checked + label::before {
   content: "";
   position: absolute;
   top: 0;
@@ -799,7 +811,7 @@ input.modal-error {
 }
 
 .filter-form .value-form {
-  width: 315px;
+  width: 319px;
 }
 
 .value-form fieldset:nth-child(1) {
@@ -919,7 +931,7 @@ input.modal-error {
 
 .value-form button {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 0 83px;
   padding: 6px 35px;
 
   font-size: 14px;
@@ -945,7 +957,7 @@ input.modal-error {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  padding: 30px 73px 30px 72px;
+  padding: 31px 73px 30px 72px;
 
   font-size: 12px;
   line-height: 18px;
@@ -1244,7 +1256,7 @@ p.hotel-rating {
 /********** ПОДВАЛ САЙТА **********/
 
 .main-footer {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
 
 .main-page .main-footer {
@@ -1259,7 +1271,7 @@ p.hotel-rating {
   padding-right: 101px;
   padding-left: 124px;
 
-  opacity: 0.9;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .add-page .main-footer {
@@ -1285,6 +1297,11 @@ p.hotel-rating {
   padding: 0;
 }
 
+.add-page .footer-contacts {
+  margin-right: 173px;
+  margin-left: 4px;
+}
+
 .contacts-hashtag,
 .contacts-number {
   font-weight: bold;
@@ -1294,9 +1311,13 @@ p.hotel-rating {
 
 .contacts-hashtag {
   display: inline-block;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 
   vertical-align: top;
+}
+
+.contacts-number {
+  display: block;
 }
 
 .footer-social {
